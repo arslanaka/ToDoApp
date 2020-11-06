@@ -2,7 +2,9 @@
 <resources>
     <dimen name="padding_small">8dp</dimen>
     <dimen name="padding_medium">8dp</dimen>
-    <dimen name="padding_">8dp</dimen>
+    <dimen name="padding_sdf">8dp</dimen>
+    <dimen name="padding_asdf">8dp</dimen>
+    <dimen name="paddingasd _">8dp</dimen>
 
 
 
