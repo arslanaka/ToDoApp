@@ -7,4 +7,14 @@
     <string name="text_button">LOGIN</string>
     <string name="text_dont_have_an_account">Dont have an account?</string>
     <string name="text_signup">SignUp</string>
+    <string name="text_forgotten_password">Forgotten Password?</string>
+    <string name="text_name">Name</string>
+    <string name="text_already_have_an_account">Already have an account?</string>
+    <string name="text_sign_in">Sign In</string>
+    <string name="error_empty">Please fill this field</string>
+    <string name="text_back">Back</string>
+    <string name="text_add_a_task">Add a task</string>
+    <string name="text_my_day">My Day</string>
+    <string name="text_list_options">List Options</string>
+    <string name="Done">Done</string>
 </resources>

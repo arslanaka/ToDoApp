@@ -16,7 +16,7 @@
             android:id="@+id/materialCardView"
             android:layout_width="match_parent"
             android:layout_height="350dp"
-            android:layout_margin="16dp"
+            android:layout_margin="@dimen/margin"
             app:cardCornerRadius="16dp"
             app:cardElevation="16dp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -26,8 +26,7 @@
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@color/splashBackground">
+                android:layout_height="match_parent">
 
                 <TextView
                     android:id="@+id/EmailTv"
@@ -92,6 +91,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/text_remember_me"
                     android:visibility="visible"
+                    android:textColor="@color/design_default_color_primary"
                     app:layout_constraintStart_toStartOf="@id/TilPassword"
                     app:layout_constraintTop_toBottomOf="@id/TilPassword" />
 
@@ -129,6 +129,15 @@
                     app:layout_constraintBottom_toBottomOf="parent"
                     android:layout_marginStart="@dimen/margin_small"
                     android:focusable="true" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_forgotten_password"
+                    app:layout_constraintEnd_toEndOf="@id/TilPassword"
+                    app:layout_constraintTop_toBottomOf="@id/TilPassword"
+                    android:layout_marginTop="@dimen/margin_medium"/>
 
 
             </androidx.constraintlayout.widget.ConstraintLayout>
